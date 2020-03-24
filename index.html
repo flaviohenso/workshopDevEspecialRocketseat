@@ -39,6 +39,15 @@
                 text-align: left;
             }
 
+            #footer  a {
+                color: #25282b;
+                text-decoration: underline;
+            }
+
+            .hide {
+                display: none;
+            }
+
         </style>
     </head>
 
@@ -56,6 +65,19 @@
         <button class="fat">Adicionar Ideia</button>
         <button>Ver Ideias</button>
 
-        <p id="footer">Com ❤ RoecketSeat</p>
+        <p id="footer">Com ❤ <a href="http://www.rocketseat.com.br"> RoecketSeat</a></p>
+   
+        <script>
+
+            document
+            .querySelector("button.fat")
+            .addEventListener("click", function(){
+                document
+                .querySelector("#footer")
+                .classList.toggle("hide")
+            })
+
+        </script>
+   
     </body>
 </html>
