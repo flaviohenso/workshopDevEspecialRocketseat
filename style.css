@@ -1,0 +1,93 @@
+body {
+    background: #e5e5e5e5;
+    color: #25282b;
+
+    
+    margin: 0;
+}
+
+button {
+    border: none;
+    background-color: silver;
+}
+
+#container {
+    width: 80%;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#intro {
+    width: 300px;
+    margin-right: 20px;
+}
+
+main {
+    margin: 42px 0;
+}
+
+.fat {
+    background-color: skyblue;
+}
+
+p {
+    text-align: left;
+}
+
+.fat {
+    color: red;
+}
+
+button {
+    margin-bottom: 32px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+button.fat {
+    background:  #ff5e84;
+    color: white;
+
+    width: 150px;
+    height: 40px;
+
+    border-radius: 6px 0;
+    box-shadow: 10px 8px 16px #ff5e8432;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+button.fat:hover {
+    text-decoration: none;
+}
+
+#buttons {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer {
+    text-align: center;
+}
+
+
+#footer  a {
+    color: #25282b;
+    text-decoration: underline;
+    text-align: center;
+}
+
+footer a:hover {
+    color: #ff5e84;
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
+}

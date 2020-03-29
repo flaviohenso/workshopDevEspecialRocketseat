@@ -1,83 +1,97 @@
 <!DOCTYPE html>
 <html>
 
-    <!-- comentarios -->
+<!-- comentarios -->
 
-    <head>
-        <meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
 
-        <!-- configuraçoes da paginas -->
-        <title>Casa Criativa</title>
+    <!-- configuraçoes da paginas -->
+    <title>Casa Criativa</title>
 
-        <style>
+    <link rel="stylesheet" href="style.css">
 
-            body {
-                background: #e5e5e5e5;
-                color: #25282b;
+</head>
 
-                text-align: center;
-            }
+<body>
 
-            button {
-                border: none;
-                background-color: silver;
-            }
+    <div id="container">
+        <section id="intro">
+            <header>
+                <img src="image/logo.png" alt="Imagem da Logo Marca">
+            </header>
+            <main>
+                <p class="fat">
+                    Por esta razão, nós também, desde o dia em que o ouvimos,
+                    não cessamos <strong> orar por vós, e de pedir que sejais cheios
+                        do conhecimento da sua vontade</strong>, em toda a sabedoria e inteligência
+                    espiritual;
 
-            .fat {
-                background-color: skyblue;
-            }
+                    Colossenses 1:9
+                </p>
+            </main>
 
-            p {
-                text-align: right;
-            }
-           
-            .fat {
-                color: red;
-            }
+            <section id="buttons">
+                <button class="fat">Adicionar Ideia</button>
+                <button>Ver Ideias</button>
+            </section>
 
-            #footer {
-                text-align: left;
-            }
 
-            #footer  a {
-                color: #25282b;
-                text-decoration: underline;
-            }
+            <footer id="footer">Com ❤ <a href="http://www.rocketseat.com.br"> RoecketSeat</a></footer>
+        </section>
 
-            .hide {
-                display: none;
-            }
+        <section id="last-ideias">
+            <div class="idea">
+                <img src="https://image.flaticon.com/icons/svg/2729/2729007.svg" alt="Imagem de Curso de Programação">
 
-        </style>
-    </head>
+                <div class="content">
+                    <h3>curso de programacao</h3>
+                    <p>Estudo</p>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, nulla. Ea, illum repudiandae.
+                        Temporibus, voluptatibus hic ut odit non perspiciatis repudiandae quos aspernatur, aperiam
+                        consequuntur illum eaque quae pariatur impedit?
+                    </div>
+                    <a href="#ir para a ideia"></a>
+                </div>
+            </div>
 
-    <body>
-        <h1>Casa Criativa</h1>
-        <img src="image/logo.png" alt="Imagem da Logo Marca">
-        <p class="fat">
-            Por esta razão, nós também, desde o dia em que o ouvimos,
-            não cessamos <strong> orar por vós, e de pedir que sejais cheios 
-            do conhecimento da sua vontade</strong>, em toda a sabedoria e inteligência 
-            espiritual;
+            <div class="idea">
+                <img src="https://image.flaticon.com/icons/svg/2729/2729005.svg" alt="Praticar execícios">
 
-            Colossenses 1:9
-        </p>
-        <button class="fat">Adicionar Ideia</button>
-        <button>Ver Ideias</button>
+                <div class="content">
+                    <h3>Exercícios</h3>
+                    <p>Saúde</p>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, nulla. Ea, illum repudiandae.
+                        Temporibus, voluptatibus hic ut odit non perspiciatis repudiandae quos aspernatur, aperiam
+                        consequuntur illum eaque quae pariatur impedit?
+                    </div>
+                    <a href="#ir para a ideia"></a>
+                </div>
+            </div>
 
-        <p id="footer">Com ❤ <a href="http://www.rocketseat.com.br"> RoecketSeat</a></p>
-   
-        <script>
+            <div class="idea">
+                <img src="https://image.flaticon.com/icons/svg/2729/2729025.svg" alt="Cutuar a Deus em Família">
 
-            document
-            .querySelector("button.fat")
-            .addEventListener("click", function(){
-                document
-                .querySelector("#footer")
-                .classList.toggle("hide")
-            })
+                <div class="content">
+                    <h3>Família</h3>
+                    <p>Cristo</p>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, nulla. Ea, illum repudiandae.
+                        Temporibus, voluptatibus hic ut odit non perspiciatis repudiandae quos aspernatur, aperiam
+                        consequuntur illum eaque quae pariatur impedit?
+                    </div>
+                    <a href="#ir para a ideia"></a>
+                </div>
+            </div>
+        </section>
 
-        </script>
-   
-    </body>
+
+    </div>
+
+    <script src="scripts.js"></script>
+
+</body>
+
 </html>
